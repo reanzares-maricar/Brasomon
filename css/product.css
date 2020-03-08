@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@font-face{
+    src: url(../fonts/CF_Leather/CF_Leather.ttf);
+    font-family: CF_Leather;
+}
+body{
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0,0,0,0.652)),url(../img/leather.jpg);
+    color: #505962;
+}
+.products{
+    padding-top: 5rem;
+    height: 25rem;
+    width: 50rem;
+}
+.navbar-dark .navbar-nav .nav-link,:active,
+.navbar-dark .navbar-nav .nav-link,:hover {
+    color: #EE8E28;
+}
